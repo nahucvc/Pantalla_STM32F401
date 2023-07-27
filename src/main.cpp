@@ -26,13 +26,6 @@ void setup(void)
   gfx->println("Hello World!");
   gfx->println("configurando equipo");
 
-  delay(500);
-  gfx->fillScreen(BLACK);
-
-  gfx->setFont(u8g2_font_fur11_tf);
-  gfx->setCursor(10, 40);
-  gfx->printf("rescribiendo");
-  pinMode(PC13, OUTPUT);
 }
 
 void loop()
